@@ -1,13 +1,22 @@
 import React from 'react'
 import "./Driving.css"
 import Forms from '../Forms/Forms'
+import Navbar from '../Navbar/Navbar'
+import "../Navbar/Navbar.css"
 
-function driving() {
+
+function Driving() {
   return (
     <React.Fragment>
-
+       <div className='menu1'>
+       <Navbar/>  
+       </div>
+      
+      
+    
     <div className="container">
-      <div className="row">
+  
+      <div className="card">
         <div className="card1" >
 
           <img class="card-img-top" src="https://www.marutisuzukidrivingschool.com/blog/driving-school/marutisuzukidrivingschoolcdn.azureedge.net/-/media/feature/maruti-driving-school/blog/driving-tips/new/842-x-377.jpg?rev=a6723c4419ae4dd8af257e1fb602701f&modified=20200326090210&h=377&w=842&la=en&hash=48831EDE6B2A64E5ACB4F8147EE96F78" width="350px" alt="Card image cap" />
@@ -108,9 +117,12 @@ function driving() {
 
 
       </div>
-    </div>
+   </div>
+      
+
+   
   </React.Fragment>
   )
 }
 
-export default driving
+export default Driving
