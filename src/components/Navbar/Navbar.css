@@ -1,11 +1,6 @@
-.card{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-   padding: 20px;
-}
 .menu {
 	position: fixed;
-	height: 100vh;
+	height: 100%;
 	background: #01f9f1;
 	width: 10vw;
 	box-shadow: 1px 0 2px rgba(0,0,0,.2);
@@ -141,13 +136,3 @@ h1 {
 		z-index: 10;
 	}
 }
-
-/* css for driving.js */
-
-.card-title{
-    width: 300px;
-  }
-  
-  .card-text{
-    width: 150px;
-  }

@@ -1,0 +1,25 @@
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+   	padding: 5px;
+}
+
+img {
+    display: block;
+    height: 250px;
+    width: 400px;
+}
+
+.card-title{
+  width: 300px;
+}
+  
+.card-text{
+  width: 300px;
+}
+
+.card {
+    height: 400px;
+    width: 200px;
+    margin: 25px;
+}
