@@ -6,7 +6,7 @@
 .menu {
 	position: fixed;
 	height: 100vh;
-	background: #F9D401;
+	background: #01f9f1;
 	width: 10vw;
 	box-shadow: 1px 0 2px rgba(0,0,0,.2);
 	transition: 1s;
@@ -58,9 +58,10 @@ nav li {
 }
 
 nav a {
-	font-size: 30px;
+	font-weight: bold;
+	font-size: 37px;
 	text-decoration: none;
-	color: white;
+	color: rgb(0, 0, 0);
 	font-weight: 600;
 }
 

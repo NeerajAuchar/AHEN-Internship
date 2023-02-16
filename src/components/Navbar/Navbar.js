@@ -13,8 +13,8 @@ export default function Navbar() {
  </div>
 		<nav>
 			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/Driving">Driving Classes</a></li>
+				<li><a href="/" >Home</a></li>
+				<li><a href="/Driving">Booking</a></li>
 				<li><a href="">About</a></li>
 				<li><a href="#">Contacts</a></li>
 			</ul>
