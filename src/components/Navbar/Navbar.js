@@ -4,11 +4,11 @@ import { FaBars } from 'react-icons/fa';
 
 
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
-    <div className='navbody' style={{cursor: "pointer", margin: -10, }}>
-<div class="menu">
- <div className='icon' style={{fontSize: 20, float: "right", padding:5}}>
+    <div className='navbody' style={{cursor: "pointer", margin: -10, marginTop:-1.5 }}>
+<div class="menu">	
+ <div className='icon' style={{fontSize: 20, float: "right", padding:15}}>
  <FaBars />
  </div>
 		<nav>

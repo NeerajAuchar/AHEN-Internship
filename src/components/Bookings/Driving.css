@@ -1,25 +1,46 @@
 .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-   	padding: 5px;
+   	padding: 5px;  
 }
 
 img {
     display: block;
     height: 250px;
-    width: 400px;
+    width: 480px;
+    padding-top: 25px;
+    justify-content: center;
 }
 
-.card-title{
-  width: 300px;
-}
-  
-.card-text{
-  width: 300px;
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9 {
+  justify-content: center;
 }
 
-.card {
-    height: 400px;
-    width: 200px;
-    margin: 25px;
+.card-title, .card-text, .phone {
+  width: 480px;
+  color: black;
+  /* text-align: center; */
+}
+
+.button {
+  justify-content: center;
+  align-self: auto;
+}
+
+.buttontag {
+  padding: 10px;
+  display: block;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: lightcoral;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: mediumspringgreen;
+}
+
+.phone {
+  padding: 5px;
+  display: block;
 }

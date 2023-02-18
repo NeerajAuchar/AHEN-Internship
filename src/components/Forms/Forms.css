@@ -11,7 +11,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 150;
     color: white;
-  }
+}
   
   .content {
     display: flex;
@@ -19,7 +19,16 @@
     margin: auto;
     background: rgb(255, 255, 255) ;
     background-size: contain;
+    transition: 1s;
+	  transform-origin: left center;
   }
+
+  .menu1:hover ~ .content{
+    transform: perspective(80vw) rotateY(10deg) translateX(35vw) scaleY(1.2);
+  }
+
+  
+
   .loation{
     text-align: center;
     margin-top: 2rem;
@@ -77,10 +86,11 @@
   }
   
   .form:hover {
-    box-shadow: rgb(0, 0, 0) 0px 0px 15px 10px;
+    box-shadow: rgb(200, 163, 252) 0px 0px 15px 10px;
     /* box-shadow: rgb(139, 119, 255) 0px 0px 15px 10px; */
     transform: scale(105%);
     transition-duration: 1s;
+    
   }
   
   .form-heading {
@@ -240,7 +250,7 @@
   input[type="number"]:hover,
   input[type="email"]:hover,
   select:hover {
-    background-color: rgb(34, 181, 207);
+    background-color: rgb(93, 90, 90);
     border: 2px rgb(255, 255, 255) solid;
     color: white;
   }
@@ -257,3 +267,7 @@
   .TextInForm {
     text-align: center;
   }
+
+.menu {
+  top: -10px;
+}

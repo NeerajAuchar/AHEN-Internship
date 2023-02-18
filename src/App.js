@@ -21,11 +21,11 @@ export default function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/Driving' element={<Driving />} />
-          <Route path='/About' element={<About />} />
+          <Route path='/' element={<Home margin='-10'/>} />
+          <Route path='/Driving' element={<Driving margin='0'/>} />
+          <Route path='/About' element={<About margin='0'/>} />
           <Route path='/Contact' element={<Contact />} />
-          <Route path='/Form1' element={<Form1 />} />
+          <Route path='/Form1' element={<Form1 margin='-20'/>} />
           <Route path='/Form2' element={<Form2 />} />
           <Route path='/Form3' element={<Form3 />} />
           <Route path='/Form4' element={<Form4 />} />
