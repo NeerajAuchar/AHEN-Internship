@@ -8,27 +8,40 @@ img {
     display: block;
     height: 250px;
     width: 480px;
-    padding-top: 25px;
-    justify-content: center;
+    margin: auto;
+    border: 2px solid black;
 }
 
 .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9 {
-  justify-content: center;
+  -webkit-clip-path: polygon(20% 0%, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 20%);
+  clip-path: polygon(20% 0%, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 20%);
+  background-color: lightgreen;
+  border: 2px solid black;
+  margin: 1vw;
+  padding: 15px;
+  transform: scale(100%);
+  transition-duration: 1s;
+}
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover, .card7:hover, .card8:hover, .card9:hover {
+  transform: scale(105%);
+  transition-duration: 1s;
+}
+
+h5 h1 {
+  color: black;
 }
 
 .card-title, .card-text, .phone {
   width: 480px;
   color: black;
+  margin: auto;
   /* text-align: center; */
-}
-
-.button {
-  justify-content: center;
-  align-self: auto;
 }
 
 .buttontag {
   padding: 10px;
+  margin: auto;
   display: block;
   border: 1px solid black;
   border-radius: 5px;
@@ -37,7 +50,8 @@ img {
 }
 
 button:hover {
-  background-color: mediumspringgreen;
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 
 .phone {

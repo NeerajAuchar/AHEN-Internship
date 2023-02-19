@@ -16,6 +16,7 @@ export default function Navbar(props) {
 				<li><a href="/">Home</a></li>
 				<li><a href="/Driving">Bookings</a></li>
 				<li><a href="/About">About</a></li>
+				<li><a href="/Services">Services</a></li>
 				<li><a href="/Contact">Contact Us</a></li>
 			</ul>
 		</nav>

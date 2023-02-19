@@ -78,7 +78,7 @@ function Driving() {
           <img class="card-img-top" src="/images/card2.jpg" alt="" />
           <div className="card-body">
             <h5 className="card-title"><h1>Om Driving School</h1>  </h5>
-            <p className="card-text">Shop No 12 A Plot No 22/B Gera Landmark, North Avenue Road, Kalyani Nagar, Opposite Baba Kalyani Bungalow Near Icici Bank, Pune</p>
+            <p className="card-text">Shop No 12A, Plot No 22/B Gera Landmark, North Avenue Road, Kalyani Nagar, Near ICICI Bank, Pune</p>
             <p className="phone">(91)-20-39611342</p>
             <div className='button'>
               <button type='Button' className='buttontag' onClick={redirectToFrom2} >Book your class</button>

@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Driving from './components/Bookings/Driving'
 import Home from './components/Home/Home'
 import About from './components/About/About'
+import Services from './components/Services/Services'
 import Contact from './components/Contact/Contact'
 
 import Form1 from './components/Forms/Form1'
@@ -24,6 +25,7 @@ export default function App() {
           <Route path='/' element={<Home margin='-10'/>} />
           <Route path='/Driving' element={<Driving margin='0'/>} />
           <Route path='/About' element={<About margin='0'/>} />
+          <Route path='/Services' element={<Services margin='0'/>} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/Form1' element={<Form1 margin='-20'/>} />
           <Route path='/Form2' element={<Form2 />} />

@@ -4,6 +4,39 @@
 }
 
 .info {
+    display: flex;
     justify-content: center;
     text-align: center;
+}
+
+.item-info {
+    padding-top: 20vh;
+    margin: 30px;
+    width: 35vw;
+    height: 46vh;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.box1 {
+    background-color: lightgray;
+    box-shadow: inset 0 0 15px 15px darkgrey;
+}
+.box2 {
+    background-color: gold;
+    box-shadow: inset 0 0 15px 15px goldenrod;
+}
+.box3 {
+    background-color: hotpink;
+    box-shadow: inset 0 0 15px 15px palevioletred;
+}
+.box4 {
+    background-color: steelblue;
+    box-shadow: inset 0 0 15px 15px royalblue;
+}
+
+.textindiv {
+    display: block;
 }
