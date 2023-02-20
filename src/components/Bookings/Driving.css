@@ -5,27 +5,31 @@
 }
 
 img {
-    display: block;
-    height: 250px;
-    width: 480px;
-    margin: auto;
-    border: 2px solid black;
+  display: block;
+  height: 250px;
+  width: 480px;
+  margin: auto;
+  border: 5px solid rgb(255, 255, 255);
 }
 
 .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9 {
-  -webkit-clip-path: polygon(20% 0%, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 20%);
-  clip-path: polygon(20% 0%, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 20%);
-  background-color: lightgreen;
+  /* -webkit-clip-path: polygon(20% 0%, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 20%);
+  clip-path: polygon(20% 0%, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 20%); */
+  background-color: darksalmon;
   border: 2px solid black;
   margin: 1vw;
+  /* clip-path: polygon(10% 0, 70% 0%, 100% 0, 100% 70%, 90% 100%, 30% 100%, 0 100%, 0% 30%); */
   padding: 15px;
   transform: scale(100%);
-  transition-duration: 1s;
+  transition-duration: .5s;
+  /* border-radius: 20% 80% 20% 80% / 88% 12% 88% 12% ; */
+  border-radius: 25% 25% 25% 25% / 25% 0% 25% 0%;
 }
 
 .card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover, .card7:hover, .card8:hover, .card9:hover {
-  transform: scale(105%);
-  transition-duration: 1s;
+  transform: scale(107%);
+  transition-duration: .5s;
+  /* box-shadow: 1px 1px 30px 2px #01f9f1; */
 }
 
 h5 h1 {
@@ -45,13 +49,17 @@ h5 h1 {
   display: block;
   border: 1px solid black;
   border-radius: 5px;
-  background-color: lightcoral;
+  background-color: lightgreen;
   cursor: pointer;
+  transform: scale(100%);
+  transition-duration: .25s;
 }
 
 button:hover {
   background-color: rgb(0, 0, 0);
   color: white;
+  transform: scale(120%);
+  transition-duration: .25s;
 }
 
 .phone {

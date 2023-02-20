@@ -19,11 +19,11 @@ function App() {
                         <div className='textinputs'>
                             <h3>Contact Information</h3>
 
-                            <p>Name : </p> <input type="text" name="username" placeholder="Jack Austin" required ></input>
+                            <p>Name : </p> <input className='formcssinput' type="text" name="username" placeholder="Jack Austin" required ></input>
 
-                            <p>Contact Number : </p> <input type="number" name="number" placeholder="+91XXXXXXXXXX" required ></input>
+                            <p>Contact Number : </p> <input className='formcssinput' type="number" name="number" placeholder="+91XXXXXXXXXX" required ></input>
 
-                            <p>Email : </p> <input type="email" name="email" placeholder="abcxyz123@gmail.com" required  ></input>
+                            <p>Email : </p> <input className='formcssinput' type="email" name="email" placeholder="abcxyz123@gmail.com" required  ></input>
                         </div>
 
                         {/* 
@@ -44,7 +44,7 @@ function App() {
                             </p>
 
                             <p>Duration: </p>
-                            <select name='duration' id='duration' required >
+                            <select name='duration' className='formcssinput' id='duration' required >
                                 <option value="">Select One Option</option>
                                 <option value="3">3 Weeks</option>
                                 <option value="6">6 Weeks</option>
@@ -52,7 +52,7 @@ function App() {
                             </select>
                         </div>
 
-                        <p>DRIVING SCHOOL INFOS :</p>
+                        <p>DRIVING SCHOOL INFO :</p>
                         <p>MAHALAXMI AUTOMITIVE PVT LTD</p>
                         <p>ADDRESS  : 59/B, Mundhwa, Near Bank Of Maharashtra Opposite Mundhwa Police Station, Pune </p>
                         <p>CONTACT NUMBER : (91)-20-39619549</p>

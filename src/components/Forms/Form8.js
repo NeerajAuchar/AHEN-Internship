@@ -16,7 +16,7 @@ function App() {
         </div>
 
 
-        <div className="content">
+        <div className="container">
             <div className="headline"><b>Book your first Driving class here !!!</b></div>
 
 
@@ -30,11 +30,11 @@ function App() {
                         <h3>Contact Information</h3>
 
 
-                        <p>Name : </p> <input type="text" name="username" placeholder="Jack Austin" required ></input>
+                        <p>Name : </p> <input className='formcssinput' type="text" name="username" placeholder="Jack Austin" required ></input>
 
-                        <p>Contact Number : </p> <input type="number" name="number" placeholder="+91XXXXXXXXXX" required ></input>
+                        <p>Contact Number : </p> <input className='formcssinput' type="number" name="number" placeholder="+91XXXXXXXXXX" required ></input>
 
-                        <p>Email : </p> <input type="email" name="email" placeholder="abcxyz123@gmail.com" required  ></input>
+                        <p>Email : </p> <input className='formcssinput' type="email" name="email" placeholder="abcxyz123@gmail.com" required  ></input>
                     </div>
                     {/* 
                         <p>Services Offered : </p>
@@ -55,7 +55,7 @@ function App() {
                         </p>
 
                         <p>Duration: </p>
-                        <select name='duration' id='duration' required >
+                        <select name='duration' className='formcssinput' id='duration' required >
                             <option value="">Select One Option</option>
                             <option value="3">3 Weeks</option>
                             <option value="6">6 Weeks</option>
@@ -65,9 +65,9 @@ function App() {
 
                     </div>
                     <p>DRIVING SCHOOL INFO :</p>
-                   <p>SHREE GAJANAN MOTOR DRIVING SCHOOL</p>
-                   <p>ADDRESS : Survey No 73, Handewadi Road, Hadapsar, Shriram Chowk Opposite Runwal Seagull Near Ganga Village, Pune  </p>
-                   <p>CONTACT NUMBER : (91)-20-39619622</p>
+                    <p>SHREE GAJANAN MOTOR DRIVING SCHOOL</p>
+                    <p>ADDRESS : Survey No 73, Handewadi Road, Hadapsar, Shriram Chowk Opposite Runwal Seagull Near Ganga Village, Pune  </p>
+                    <p>CONTACT NUMBER : (91)-20-39619622</p>
 
 
 

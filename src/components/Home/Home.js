@@ -12,7 +12,7 @@ const Home = () => {
         <img src='../images/AHEN.png' alt='' className='ahenlogo'></img>
       <div className='info'>
         <div className='firstrow'>
-          <div className='item-info box1'><span className='textindiv'>Download the AHEN App from Play Store </span><a href='https://play.google.com/store/apps/details?id=com.samrattechnology.ahen'> Download</a></div>
+          <div className='item-info box1'><span className='textindiv'>Download the AHEN App from Play Store </span><a href='https://play.google.com/store/apps/details?id=com.samrattechnology.ahen' rel="noreferrer" target={"_blank"}> Download</a></div>
           <div className='item-info box2'><span className='textindiv'>Your First Driving Class Here !!! </span><a href='../Driving'>Click Here</a></div>
         </div>
         <div className='secondrow'>

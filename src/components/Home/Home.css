@@ -22,21 +22,48 @@
 
 .box1 {
     background-color: lightgray;
-    box-shadow: inset 0 0 15px 15px darkgrey;
+    transform: scale(100%);
+    transition-duration: .5s;
+    box-shadow: inset 0 0 15px 15px rgb(150, 150, 150);
 }
 .box2 {
     background-color: gold;
-    box-shadow: inset 0 0 15px 15px goldenrod;
+    transform: scale(100%);
+    transition-duration: .5s;
+    box-shadow: inset 0 0 15px 15px rgb(219, 162, 16);
 }
 .box3 {
     background-color: hotpink;
-    box-shadow: inset 0 0 15px 15px palevioletred;
+    transform: scale(100%);
+    transition-duration: .5s;
+    box-shadow: inset 0 0 15px 15px rgb(212, 69, 117);
 }
 .box4 {
     background-color: steelblue;
-    box-shadow: inset 0 0 15px 15px royalblue;
+    transform: scale(100%);
+    transition-duration: .5s;
+    box-shadow: inset 0 0 15px 15px rgb(50, 79, 163);
 }
 
 .textindiv {
     display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.box1:hover {
+    transform: scale(105%);
+    transition-duration: .5s;
+}
+.box2:hover {
+    transform: scale(105%);
+    transition-duration: .5s;
+}
+.box3:hover {
+    transform: scale(105%);
+    transition-duration: .5s;
+}
+.box4:hover {
+    transform: scale(105%);
+    transition-duration: .5s;
 }

@@ -1,7 +1,5 @@
 .container {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
     padding: 20px;
   }
   
@@ -13,7 +11,8 @@
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    height: 85vh;
   }
   
   .cf-label {
@@ -24,11 +23,15 @@
   
   .cf-input, .cf-textarea {
     display: block;
-    width: 95%;
+    width: 99%;
     padding: 10px;
     margin-bottom: 20px;
+    border: 2px solid black;
     border-radius: 5px;
-    border: 1px solid #ccc;
+  }
+
+  .cf-input {
+    border: 2px solid black;
   }
   
   .cf-textarea {
@@ -43,3 +46,13 @@
     border-radius: 5px;
     cursor: pointer;
   }
+
+  #name:hover, #email:hover, #subject:hover {
+    background-color: none;
+  }
+
+  #name, #email, #subject {
+    border: 1px solid black;
+  }
+
+  

@@ -55,7 +55,7 @@
     margin-bottom: 2.5rem;
     border: 2px solid black;
     width: 60vw;
-    height: 50vh;
+    height: 80vh;
     transform: scale(100%);
     transition-duration: 1s;
     /* box-shadow: rgb(0, 0, 0) 0px 0px 10px 10px; */
@@ -74,6 +74,7 @@
     margin-bottom: 5rem;
     border: 2px solid black;
     width: 60vw;
+    /* aspect-ratio: 5/4; */
     box-sizing: border-box;
     background-color: rgb(25, 23, 23);
     padding-left: 1rem;
@@ -86,7 +87,7 @@
   }
   
   .form:hover {
-    box-shadow: rgb(200, 163, 252) 0px 0px 15px 10px;
+    box-shadow: rgb(163, 230, 252) 0px 0px 15px 10px;
     /* box-shadow: rgb(139, 119, 255) 0px 0px 15px 10px; */
     transform: scale(105%);
     transition-duration: 1s;
@@ -99,14 +100,13 @@
     color: white;
   }
   
-  input[type="text"],
-  input[type="number"],
-  input[type="email"] {
+  .formcssinput {
     width: 100%;
     padding: 5px;
     border: 2px white solid;
     border-radius: 5px;
     margin-right: 1rem;
+    color: black;
   }
   
   .textinputs {
@@ -246,15 +246,17 @@
     cursor: pointer;
   }
   
-  input[type="text"]:hover,
-  input[type="number"]:hover,
-  input[type="email"]:hover,
-  select:hover {
+.formcssinput {
     background-color: rgb(93, 90, 90);
     border: 2px rgb(255, 255, 255) solid;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   
+  input::-webkit-input-placeholder,
+  select::placeholder {
+    color: black;
+  }
+
   input:hover::-webkit-input-placeholder,
   select:hover::placeholder {
     color: white;
@@ -270,4 +272,14 @@
 
 .menu {
   top: -10px;
+}
+
+.loation {
+  /* margin-bottom: 10px; */
+  padding-bottom: 25px;
+  font-size: 25pz;
+}
+
+.headline {
+  font-size: 30px;
 }
