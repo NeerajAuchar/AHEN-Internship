@@ -8,7 +8,7 @@ const Services = () => {
       <div className='menu1'>
         <Navbar />
       </div>
-      <div className='container'>
+      <div className='maincontainer'>
         
       </div>
     </React.Fragment>

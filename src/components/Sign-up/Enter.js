@@ -14,7 +14,7 @@ const Enter = () => {
         password:"",
 
     })
-
+    // eslint-disable-next-line
     const [data , setData] =useState([]);
     console.log(inputval)
 

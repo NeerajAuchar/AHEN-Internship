@@ -11,6 +11,7 @@ body {
 	box-shadow: 1px 0 2px rgba(0, 0, 0, 0.2);
 	transition: 1s;
 	margin-right: 0;
+	z-index: 10;
 	
 }
 
@@ -21,7 +22,7 @@ body {
 	z-index: 10;
 }
 
-.menu1:hover ~ .container {
+.menu1:hover ~ .maincontainer {
 	transform: perspective(80vw) rotateY(10deg) translateX(35vw) scaleY(1);
 }
 
@@ -33,20 +34,20 @@ body {
 	left: 10vw;
 }
 	
-.container, .content{
-	width: 87vw;
+.maincontainer, .content{
+	width: 90.6vw;
 	background-color: rgb(51, 51, 51);
-	margin-left: 10%;
+	margin-left: 9vw;
 	transition: 1s;
 	transform-origin: left center;
 	color: #D2D2D0;
 	z-index: -10;
-	height: 100%;
+	/* height: auto; */
     box-shadow: inset 0 0 15px 15px black;
 
 }
 
-.container .content {
+.maincontainer .content {
 	padding: 100px 20%;
 	height: 100%;
 
@@ -79,7 +80,7 @@ nav a {
 }
 
 nav a:hover {
-	color: red;
+	color: rgb(255, 92, 92);
 	font-size: 50px;
 }
 
@@ -147,7 +148,7 @@ h1 {
         
 	}
 
-	.menu1:hover ~ .container {
+	.menu1:hover ~ .maincontainer {
 		transform: none;
 		transition-duration: 1s;
 		z-index: 10;

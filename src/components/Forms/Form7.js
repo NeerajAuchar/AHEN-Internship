@@ -16,7 +16,7 @@ function App() {
         </div>
 
 
-        <div className="container">
+        <div className="maincontainer">
             <div className="headline"><b>Book your first Driving class here !!!</b></div>
 
 

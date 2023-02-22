@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 
 const Error = () => {
-
+    // eslint-disable-next-line
     const history = useNavigate();
     return (
         <>

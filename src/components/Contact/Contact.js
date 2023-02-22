@@ -10,7 +10,7 @@ function Contact() {
             <div className="menu1">
                 <Navbar />
             </div>
-            <div className="container">
+            <div className="maincontainer">
                 <h1 className="h1tag">Contact Us</h1>
                 <form id="contact-form">
                 <label className=".cf-form" for="name">Name</label>

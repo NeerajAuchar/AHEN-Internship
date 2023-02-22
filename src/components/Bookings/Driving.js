@@ -58,7 +58,7 @@ function Driving() {
 
 
 
-      <div className="container">
+      <div className="maincontainer">
 
       <div className="cards">
         <div className="card1" >
@@ -77,7 +77,7 @@ function Driving() {
         <div className="card2" >
           <img class="card-img-top" src="/images/card2.jpg" alt="" />
           <div className="card-body">
-            <h5 className="card-title"><h1>Om Driving School</h1>  </h5>
+            <h5 className="card-title"><h1>Om Shri Sai Driving School</h1>  </h5>
             <p className="card-text">Shop No 12A, Plot No 22/B Gera Landmark, North Avenue Road, Kalyani Nagar, Near ICICI Bank, Pune</p>
             <p className="phone">(91)-20-39611342</p>
             <div className='button'>

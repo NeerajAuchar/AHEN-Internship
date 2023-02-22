@@ -8,7 +8,7 @@ const Home = () => {
       <div className='menu1'>
         <Navbar />
       </div>
-      <div className='container'>
+      <div className='maincontainer'>
         <img src='../images/AHEN.png' alt='' className='ahenlogo'></img>
       <div className='info'>
         <div className='firstrow'>
