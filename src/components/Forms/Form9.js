@@ -84,7 +84,8 @@ function App() {
 
 
             <div className='loation' > <h2><b >Locate it here !!</b></h2></div>
-            <iframe title='maps' className="maps" width="200" height="200"  id="gmap_canvas" src="https://maps.google.com/maps?q=om%20driving%20school%20Near%20Icici%20Bank,%20Pune&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+           <iframe title='maps' className="maps" width="200" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=MAHESH%20MOTOR%20DRIVING%20SCHOOL%20Survey%20No%2084,%20Shop%204,%20Manik%20Moti%20Complex,%20Pune%20Satara%20Road,%20Katraj,%20Near%20Shivneri%20Hospital,%20Near%20Morebaug,%20Pune&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" ></iframe>
+
 
         
 
