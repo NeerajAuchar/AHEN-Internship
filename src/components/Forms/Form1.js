@@ -63,7 +63,7 @@ function App() {
                 </form>
 
                 <div className='loation' > <h2><b >Locate it here !!</b></h2></div>
-                <iframe title='maps' className="maps" width="200" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=%20Mahalaxmi%20Automotives%20Pvt%20Ltd%2059/B,%20Mundhwa,%20Near%20Bank%20Of%20Maharashtra%20Opposite%20Mundhwa%20Police%20Station,%20Pune&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+               <iframe title='maps' className="maps" width="200" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=%20Mahalaxmi%20Automotives%20Pvt%20Ltd%2059/B,%20Mundhwa,%20Near%20Bank%20Of%20Maharashtra%20Opposite%20Mundhwa%20Police%20Station,%20Pune&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 
             </div>
         </React.Fragment>
