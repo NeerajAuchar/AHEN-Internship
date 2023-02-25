@@ -74,9 +74,9 @@ const handleSubmit=(e)=>{
                         <div className='radiosDurationFeesbox'>
 
                             <p className='radio1'>Driving Class for : <br></br>
-                                <input type={"radio"} name="vehicle" id="vehicle"onChange={(e)=>setvehicle(e.target.value)} value={"Bike"}  ></input> Bike <br></br>
+                                <input type={"radio"} name="vehicle" id="vehicle"  onChange={(e)=>setvehicle(e.target.value)} value={"Bike"}></input> Bike <br></br>
                                 <input type={"radio"} name="vehicle" id="vehicle"  onChange={(e)=>setvehicle(e.target.value)} value={"Car"}></input> Car <br></br>
-                                <input type={"radio"} name="vehicle" id="vehicle"  onChange={(e)=>setvehicle(e.target.value)} value={"None"} ></input> None <br></br>
+                                <input type={"radio"} name="vehicle" id="vehicle"  onChange={(e)=>setvehicle(e.target.value)} value={"None"}></input> None <br></br>
                             </p>
 
                             <p>Duration: </p>

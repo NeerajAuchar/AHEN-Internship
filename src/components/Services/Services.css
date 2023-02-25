@@ -1,0 +1,57 @@
+.serviceblock {
+    margin: auto;
+    width: 60vw;
+    min-height: 94vh;
+    max-height: auto;
+    border: 5px solid white;
+    background-color: #01f9f1;
+    color: black;
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+#reneworapply:hover {
+    background-color: black;
+    color: white;
+    transform: none;
+}
+
+.serviceform {
+    justify-content: center;
+    text-align: center;
+}
+
+.serviceform p {
+    margin-bottom: 10px;
+}
+.serviceforminput {
+    width: 300px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.radioinput {
+    display: block;
+    text-align: center;
+}
+
+.vehicletype {
+    width: 300px;
+    justify-content: center;
+    display: block;
+    margin: auto;
+}
+
+.dropdownvehicletype {
+    justify-content: center;
+}
+
+.serviceformbutton {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
