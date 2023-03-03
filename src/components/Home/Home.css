@@ -1,6 +1,8 @@
 .ahenlogo {
-    width: 100%;
+    width: 98%;
     height: auto;
+    position: relative;
+    top: 15px;
 }
 
 .info {

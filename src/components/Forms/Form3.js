@@ -1,6 +1,7 @@
 
 import "./Forms.css"
 import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 import "../Navbar/Navbar.css"
 import axios from 'axios';
 import React, { useState } from 'react'
@@ -94,7 +95,7 @@ const handleSubmit=(e)=>{
                     <p>CONTACT NUMBER : (91)-20-39612874</p>
 
                         <p><input type="submit" value="Submit"></input></p>
-                        <p className='TextInForm'>Fees for your your Driving Classes based on your Service, Vehicle & Duration selection is displayed.</p>
+                        <p className='TextInForm'>Fees for your your Driving Classes based on your Vehicle & Duration selection will be informed shortly.</p>
                     </div>
                 </form>
 
@@ -102,8 +103,7 @@ const handleSubmit=(e)=>{
                 <iframe title='maps' className="maps" width="200" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=ADITYA%20MOTOR%20DRIVING%20SCHOOL%20:Shop%20No%206%20Laxmi%20Plaza%20Building,%20Main%20Road,%20Baner,%20Near%20Pan%20Card%20Club,%20Pune&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 
 
-              
-
+            <Footer/>
             </div>
         </React.Fragment>
 

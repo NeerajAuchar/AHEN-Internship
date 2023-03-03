@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Driving.css"
 import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'
 import "../Navbar/Navbar.css"
 import { useNavigate} from "react-router-dom";
 
@@ -172,7 +173,7 @@ function Driving() {
         <div className="card9" >
           <img class="card-img-top" src="/images/card9.jpeg" alt="" />
           <div className="card-body">
-            <h5 className="card-title"><h1>Mahesh Motor Driving Schools </h1>  </h5>
+            <h5 className="card-title"><h1>Mahesh Motor Driving School </h1>  </h5>
             <p className="card-text">Survey No 84, Shop 4, Manik Moti Complex, Pune Satara Road, Katraj, Near Shivneri Hospital, Near Morebaug, Pune</p>
             <p className="phone">(91)-20-39632457</p>
             <div className='button'>
@@ -185,6 +186,7 @@ function Driving() {
 
 
       </div>
+      <Footer/>
       </div>
 
 

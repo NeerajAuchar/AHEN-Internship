@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 import "../Navbar/Navbar.css";
 
 
@@ -11,6 +12,7 @@ function Contact() {
                 <Navbar />
             </div>
             <div className="maincontainer">
+                <div className="anothercontainer">
                 <h1 className="h1tag">Contact Us</h1>
                 <form id="contact-form">
                 <label className=".cf-form" for="name">Name</label>
@@ -21,8 +23,11 @@ function Contact() {
                 <input type="text" className="cf-input" id="subject" name="subject" required></input>
                 <label className=".cf-form" for="message">Message</label>
                 <textarea id="message" className="cf-textarea" name="message" required></textarea>
-                <button type="submit" className="cf-button" id="submit-button">Submit</button> </form>
-            </div>
+                <div className="contactsubmit"><button type="submit" className="cf-button" id="submit-button">Submit</button> </div>
+                </form>
+                </div>
+                <Footer/>
+                </div>
         </React.Fragment>
     )
 }

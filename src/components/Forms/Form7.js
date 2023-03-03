@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react'
 import "./Forms.css"
 import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 import "../Navbar/Navbar.css"
 
 
@@ -104,7 +105,7 @@ const handleSubmit=(e)=>{
 
 
                     <p><input type="submit" value="Submit"></input></p>
-                    <p className='TextInForm'>Fees for your your Driving Classes based on your Service, Vehicle & Duration selection is displayed.</p>
+                        <p className='TextInForm'>Fees for your your Driving Classes based on your Vehicle & Duration selection will be informed shortly.</p>
 
 
 
@@ -120,7 +121,7 @@ const handleSubmit=(e)=>{
 
           
 
-        
+        <Footer/>
 
         </div>
         </React.Fragment>

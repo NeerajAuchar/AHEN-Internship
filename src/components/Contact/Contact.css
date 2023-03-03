@@ -1,8 +1,10 @@
 .maincontainer {
     font-family: Arial, sans-serif;
-    padding: 25px;
     margin-top: 10px;
     margin-left: 9.4vw;
+  }
+  .anothercontainer {
+    padding: 25px;
   }
   
   .h1tag {
@@ -10,15 +12,18 @@
   }
   
   #contact-form {
-    background-color: rgb(228, 228, 228);
+    background-color: #333;
+    color: white;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgb(0, 0, 0);
-    height: 83vh;
-    color: black;
-    /* border: none; */
+    /* height: 83vh; */
+    /* color: black; */
+    border: none;
+    box-shadow: none;
     /* margin: 10px; */
     /* box-sizing: content-box; */
+    color: #ffffff;
   }
   
   .cf-label {
@@ -35,7 +40,7 @@
     border: 2px solid black;
     border-radius: 5px;
   }
-
+  
   .cf-input {
     border: 2px solid black;
   }
@@ -45,14 +50,24 @@
   }
   
   .cf-button {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 30px;
+    /* border: none; */
     border-radius: 5px;
     cursor: pointer;
   }
 
+  .cf-button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .contactsubmit {
+    justify-content: center;
+    display: flex;
+  }
+  
   #name:hover, #email:hover, #subject:hover {
     background-color: none;
   }

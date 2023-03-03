@@ -1,6 +1,7 @@
-import React from 'react'
-import Navbar from "../Navbar/Navbar"
-import "../Home/Home.css"
+import React from 'react';
+import Navbar from "../Navbar/Navbar";
+import Footer from '../Footer/Footer';
+import "../Home/Home.css";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
           <div className='item-info box4'><span className='textindiv'>24 Hours Available</span><a href='../Contact'>Contact Us</a></div>
         </div>
       </div>
+      <Footer/>
       </div>
     </React.Fragment>
   )

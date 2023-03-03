@@ -3,8 +3,10 @@
     grid-template-columns: 1fr 1fr 1fr ;
     /* width: 90vw; */
    	padding: 5px;
-    margin-left: 15px;
+    margin-left: 20px;
     box-sizing: content-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 img {
@@ -49,11 +51,12 @@ h5 h1 {
 
 .buttontag {
   padding: 10px;
+  color: white;
   margin: auto;
   display: block;
   border: 1px solid black;
   border-radius: 5px;
-  background-color: rgb(255, 92, 92);
+  background-color: rgb(0, 0, 0);
   cursor: pointer;
   transform: scale(100%);
   transition-duration: .25s;

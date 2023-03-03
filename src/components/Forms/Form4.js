@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react'
 import "./Forms.css"
 import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 import "../Navbar/Navbar.css"
 
 function App() {
@@ -93,7 +94,7 @@ const handleSubmit=(e)=>{
                    <p>CONTACT NUMBER : (91)-20-30020232</p>
 
                         <p><input type="submit" value="Submit"></input></p>
-                        <p className='TextInForm'>Fees for your your Driving Classes based on your Service, Vehicle & Duration selection is displayed.</p>
+                        <p className='TextInForm'>Fees for your your Driving Classes based on your Vehicle & Duration selection will be informed shortly.</p>
                     </div>
                 </form>
 
@@ -101,7 +102,7 @@ const handleSubmit=(e)=>{
                 <iframe title='maps' className="maps" width="200" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=BHAGYAWANTI%20MOTOR%20DRIVING%20SCHOOL%20Khanekar%20Complex%202nd%20Floor%20Shop%20No%202,%20Hinjewadi,%20Above%20Allahabad%20Bank%20Hinjewadi%20Main%20Chowk,%20Pune&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 
 
-            
+            <Footer/>
             </div>
         </React.Fragment>
 

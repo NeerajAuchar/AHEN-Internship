@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react'
 import "./Forms.css"
 import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 import "../Navbar/Navbar.css"
 
 
@@ -105,7 +106,8 @@ const handleSubmit=(e)=>{
 
 
                         <p><input type="submit" value="Submit"></input></p>
-                        <p className='TextInForm'>Fees for your your Driving Classes based on your Service, Vehicle & Duration selection is displayed.</p>
+                        <p className='TextInForm'>Fees for your your Driving Classes based on your Vehicle & Duration selection will be informed shortly.</p>
+
 
 
 
@@ -120,7 +122,7 @@ const handleSubmit=(e)=>{
                     id="gmap_canvas" src="https://maps.google.com/maps?q=MAHESH%20MOTOR%20DRIVING%20SCHOOL%20Survey%20No%2084,%20Shop%204,%20Manik%20Moti%20Complex,%20Pune%20Satara%20Road,%20Katraj,%20Near%20Shivneri%20Hospital,%20Near%20Morebaug,%20Pune&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" ></iframe>
 
 
-
+            <Footer/>
 
 
             </div>
