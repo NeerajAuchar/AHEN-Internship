@@ -29,7 +29,7 @@
 
   
 
-  .loation{
+  .location{
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
@@ -229,7 +229,7 @@
     margin: 2px;
   }
   
-  input[type="submit"] {
+  p input[type="submit"] {
     width: 100%;
     color: black;
     background-color: #c1ff9e;
@@ -248,18 +248,18 @@
 .formcssinput {
     background-color: rgb(93, 90, 90);
     border: 2px rgb(255, 255, 255) solid;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
   
   input::-webkit-input-placeholder,
   select::placeholder {
-    color: black;
-  }
-
-  input:hover::-webkit-input-placeholder,
-  select:hover::placeholder {
     color: white;
   }
+
+  /* input:hover::-webkit-input-placeholder,
+  select:hover::placeholder {
+    color: white;
+  } */
   
   input[type="radio"] {
     accent-color: black;
@@ -273,7 +273,7 @@
   top: -10px;
 }
 
-.loation {
+.location {
   /* margin-bottom: 10px; */
   padding-top: 15px;
   padding-bottom: 15px;

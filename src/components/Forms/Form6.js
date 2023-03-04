@@ -98,7 +98,7 @@ const handleSubmit=(e)=>{
                     </div>
                 </form>
 
-                <div className='loation' > <h2><b >Locate it here !!</b></h2></div>
+                <div className='location' > <h2><b >Locate it here !!</b></h2></div>
                 <iframe title='maps' className="maps" width="200" height="200" 
                id="gmap_canvas" src="https://maps.google.com/maps?q=SAI%20SIDDHI%20MOTOR%20DRIVING%20SCHOOL%20Shop%20No%2012,%20Sohrab%20Hall,%20Dhole%20Patil%20Road,%20Pune%20Station,%20Opposite%20Jahangir%20Hospital,%20Pune&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" ></iframe>
 

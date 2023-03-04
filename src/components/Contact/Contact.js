@@ -59,7 +59,7 @@ function Contact() {
                             <input type="text" className="cf-input" id="subject" name="subject" required onChange={(e) => setSubject(e.target.value)} value={subject}></input>
                             <label className=".cf-form" for="message" >Message</label>
                             <textarea id="message" className="cf-textarea" name="message" required onChange={(e) => setMessage(e.target.value)} value={message}></textarea>
-                            <input type="submit" value="Submit"></input>
+                            <input className="contactsubmit" type="submit" value="Submit"></input>
                         </form>
                     </div>
                     <Footer />

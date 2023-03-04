@@ -17,7 +17,7 @@ const Home = () => {
           <div className='item-info box2'><span className='textindiv'>Your First Driving Class Here !!! </span><a href='../Driving'>Click Here</a></div>
         </div>
         <div className='secondrow'>
-          <div className='item-info box3'><span className='textindiv'>What is AHEN ?</span><a href='../About'>About Us</a></div>
+          <div className='item-info box3'><span className='textindiv'>Who Are We ?</span><a href='../About'>About Us</a></div>
           <div className='item-info box4'><span className='textindiv'>24 Hours Available</span><a href='../Contact'>Contact Us</a></div>
         </div>
       </div>

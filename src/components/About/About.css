@@ -1,0 +1,18 @@
+.aboutcontent {
+    width: 90vw;
+    padding : 10%;
+    color: black;
+}
+
+.abouttitle {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.aboutsubtitle {
+    font-size: 30px;
+}
+
+.aboutcontent p {
+    text-align: justify;
+}

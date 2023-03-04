@@ -98,7 +98,7 @@ const handleSubmit=(e)=>{
                     </div>
                 </form>
 
-                <div className='loation' > <h2><b >Locate it here !!</b></h2></div>
+                <div className='location' > <h2><b >Locate it here !!</b></h2></div>
                 <iframe title='maps' className="maps" width="200" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=BHAGYAWANTI%20MOTOR%20DRIVING%20SCHOOL%20Khanekar%20Complex%202nd%20Floor%20Shop%20No%202,%20Hinjewadi,%20Above%20Allahabad%20Bank%20Hinjewadi%20Main%20Chowk,%20Pune&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 
 

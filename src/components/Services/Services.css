@@ -6,7 +6,8 @@
 .serviceblock {
     margin: auto;
     width: 60vw;
-    border: 5px solid white;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px;
     background-color: #01f9f1;
     color: black;
     padding-top: 20px;
@@ -88,7 +89,7 @@ border-radius: 5px;
 }
 
 .serviceformbutton button:hover {
-    background-color: #fff;
+    background-color:  rgb(139, 119, 255);
     color: #000;
 }
 

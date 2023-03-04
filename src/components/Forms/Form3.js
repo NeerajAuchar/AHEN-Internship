@@ -99,7 +99,7 @@ const handleSubmit=(e)=>{
                     </div>
                 </form>
 
-                <div className='loation' > <h2><b >Locate it here !!</b></h2></div>
+                <div className='location' > <h2><b >Locate it here !!</b></h2></div>
                 <iframe title='maps' className="maps" width="200" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=ADITYA%20MOTOR%20DRIVING%20SCHOOL%20:Shop%20No%206%20Laxmi%20Plaza%20Building,%20Main%20Road,%20Baner,%20Near%20Pan%20Card%20Club,%20Pune&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 
 

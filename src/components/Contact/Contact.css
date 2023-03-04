@@ -12,29 +12,30 @@
   }
   
   #contact-form {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    border-radius: 5px;
+    background-color: #01f9f1;
+    padding: 2%;
+    border: 5px solid black;
+    border-radius: 5px; 
     box-shadow: 0 0 10px rgb(0, 0, 0);
     /* height: 83vh; */
-    /* color: black; */
-    border: none;
+    color: black;
+    /* border: none; */
     box-shadow: none;
-    /* margin: 10px; */
+    margin: 3%;
     /* box-sizing: content-box; */
-    color: #ffffff;
+    /* color: #ffffff; */
   }
   
   .cf-label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
+    color: black;
   }
   
   .cf-input, .cf-textarea {
     display: block;
-    width: 99%;
+    width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 2px solid black;
@@ -63,10 +64,10 @@
     color: #000;
   }
   
-  .contactsubmit {
+  /* .contactsubmit {
     justify-content: center;
     display: flex;
-  }
+  } */
   
   #name:hover, #email:hover, #subject:hover {
     background-color: none;
@@ -76,4 +77,18 @@
     border: 1px solid black;
   }
 
-  
+  .contactsubmit {
+    font-size: 20px;
+    width: 100%;
+    height: 60px;
+    /* justify-content: center; */
+    padding: 10px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-color: rgb(255, 255, 255);
+  }
+
+  .contactsubmit:hover {
+    font-size: 150%;
+    padding: none;
+  }

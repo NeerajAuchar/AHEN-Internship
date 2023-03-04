@@ -76,8 +76,8 @@
         <div className='menu1'>
           <Navbar />
         </div>
-        <form onSubmit={handleSubmit} >
           <div className='maincontainer'>
+        <form onSubmit={handleSubmit} >
             <div className='maincontainerforflex'>
               <div className='serviceblock'>
                 <button id='reneworapply' onClick={handleClick}>
@@ -164,8 +164,8 @@
             </div>
 
             <Footer />
-          </div>
           </form>
+          </div>
       </React.Fragment>
     )
   }
