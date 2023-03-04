@@ -16,7 +16,7 @@
     const [dob, setDob] = useState('');
     const [lcnum, setLcnum] = useState('');
     const [add, setAdd] = useState('');
-    const[chang , setChange]=useState('');
+    const [chang , setChange] = useState('');
     const [option, setOption] = useState('');
 
 
@@ -25,18 +25,18 @@
 
       // console.table(username,number,email,vehicle,services,duration);
       const data = {
-        Name: name,
-        PhNumber:pnnumber,
-        Email: email,
+        Name : name,
+        PhNumber : pnnumber,
+        Email : email,
         AppDate : apdate,
         AppTime : aptime,
         Driving_School : driving,
-        DOB  : dob,
-        License_Number: lcnum,
+        DOB : dob,
+        License_Number : lcnum,
         Address : add,
         Applying_for : chang,
 
-        Vehicle_Type: option,
+        Vehicle_Type : option,
         
       }
 
@@ -91,7 +91,7 @@
                     <h1>Book an Appointment</h1>
                     <div className='serviceform'>
                       <p>Name : </p>
-                      <input type={'text'} className='serviceforminput' id='name' name='name' required placeholder='Jack Austin' onChange={(e) => setName(e.target.value)} value={name}></input>
+                      <input type={'text'} className='serviceforminput' id='name' name={'name'} required placeholder='Jack Austin' onChange={(e) => setName(e.target.value)} value={name}></input>
                       <p>Phone Number : </p>
                       <input type={'number'} className='serviceforminput' id='number' name={'number'} required placeholder='+91 XXXXXXXXXX' onChange={(e) => setPhnumber(e.target.value)} value={pnnumber}></input>
                       <p>Email Id : </p>
