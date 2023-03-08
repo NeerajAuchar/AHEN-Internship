@@ -14,12 +14,14 @@ export default function Footer() {
         <h3>Go Ahead&nbsp;<span>With AHEN</span></h3>
 
         <p class="footer-links">
-            <Link to="/" class="link-1">Home</Link>
+            <Link to="/Home" class="link-1">Home</Link>
             
+            <Link to="/Driving">Bookings</Link>
+
             <Link to="/about">About</Link>
             
-            <Link to="/bookings">Bookings</Link>
-            
+            <Link to="/services">Services</Link>
+
             <Link to="/contact">Contact</Link>
         </p>
 
